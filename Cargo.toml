@@ -1,0 +1,10 @@
+[package]
+name = "bfd"
+version = "0.1.0"
+authors = ["Yuheng Chen <yuhengchen@sensetime.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "^0.2"
+bitflags = "^0.5"
+
